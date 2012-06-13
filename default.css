@@ -1,0 +1,76 @@
+<!-- $Header: /cvsroot/yappa/yappa/default.css,v 1.4 2002/04/23 16:00:33 pixzone Exp $ -->
+
+body { 
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 100%;
+}
+a {
+    text-decoration: none;    
+}
+.text_title {
+    font-size: 170%;
+}
+.text_album_path {
+    font-size: 100%;
+}
+.text_album_title {
+    font-size: 140%;
+}
+.text_album_comment {
+    font-size: 90%;
+    font-style: italic;
+}
+.text_album_info {
+    font-size: 60%;
+}
+.text_image_caption {
+    font-size: 80%;
+}
+.text_navlink {
+    font-size: 80%;
+}
+.text_album_nav_info {
+    font-size: 60%;
+}
+.bold_link { 
+    font-weight: bold; 
+}
+.link_image {
+    font-size: 80%;
+    font-weight: bold; 
+    text-decoration: none;
+    color: #0000cc;
+}
+.link_image:hover {
+    font-size: 80%; 
+    font-weight: bold; 
+    text-decoration: none;
+    color: #ffffcc;
+}
+.menubar_cell { 
+    background-color: #DDDDDD 
+}
+.album_cell { 
+    background-color: #CCCCCC 
+}
+.subalbums_bar { 
+    background-color: #EEEEEE 
+}
+.album_cell_selected { 
+    background-color: #AAAAAA 
+}
+.thumbnail_cell { 
+    background-color: #EFEFEF 
+}
+.image_cell { 
+    background-color: #999999 
+}
+.imagemenu_cell { 
+    background-color: #EEEEEE 
+}
+.album_cell_a { 
+    background-color: #EEEEFF
+}
+.album_cell_b { 
+    background-color: #DDDDFF
+}

@@ -1,0 +1,8 @@
+* GD/GD2 support
+* album thumbnails
+* HTTP cache headers
+* more CSS usage, no <font> tag, album hilight
+* album/images title and descriptions
+* user comments
+* admin page
+* template/theme support

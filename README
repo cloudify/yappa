@@ -1,0 +1,55 @@
+NAME:
+
+    YAPPA - Yet Another PHP Photo Album
+
+AUTHOR:
+    
+    Federico Feroldi <pix@pixzone.com>
+
+DESCRIPTION:
+
+    What is YAPPA?
+
+    YAPPA an easy to use online photo gallery. Creates any needed thumbnails 
+    for the user on the fly, added to your existing gallery is as easy as FTP'ing 
+    to the album directory. Creating albums is as easy as creating a directory.
+
+    Some of YAPPA's features:
+
+    * automatic creation of photo galleries
+    * just create directories and put in your pictures
+    * automatic thumbnail generation
+    * resizable images
+    * resized image caching
+    * album/images hits counter
+    * supports GD and ImageMagick libraries
+    * can read EXIF data from JPEG files
+    * supports album and image comments
+
+CREDITS
+
+    I would like to thank all the people that mailed me comments and suggestions,
+    in particular to Ron Nessim for a lot of great ideas.
+
+LICENSE:
+
+    This software is released under the GPL.  Please
+    see the included LICENSE file.
+    
+    Copyright (C) 2001  Federico Feroldi
+    
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+    
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+    
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+    
+    Use this script at your own risk!

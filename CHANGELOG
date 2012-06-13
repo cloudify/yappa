@@ -1,0 +1,67 @@
+changes for 1.7
+---------------
+
+- new, better, navbar with nice icons, album info, sorting
+- homepage news.html is back
+- album description from info.txt is back
+- fixed hit counter
+
+changes for 1.6
+---------------
+
+- made the image classes to have the same interface/classname
+- added subalbums support
+- configurable cache dir via cache_root config parameter
+- added external css
+- better handling of special characters in filenames
+
+changes for 1.5
+---------------
+
+- new modular Image class, added support to multiple image libraries
+- created image modules for ImageMagick and GD
+- fixed, the hits log filename is taken from the config
+
+changes for 1.4
+---------------
+
+- hidden thumbnails URL via show.php
+- moved thumbnails cache to show.php
+- mime types and support for multiple image formats (jpeg, gif, png)
+
+changes for 1.3
+---------------
+
+- fixed stat() file bug in show.php and album.class.php
+- exif data is read only if read_exif_data() exists
+- image captions from captions.txt
+- exif data
+- changed album selection
+- error checking when opening hits.log
+- thumbnails mode link in image mode
+- bugfixed image resizing with cache disabled
+- added download function to show.php
+
+changes for 1.2
+---------------
+- corrected errors when an album is empty.
+- filemtime checks for thumbnail/cache validity.
+- added album sorting options (none, name, mtime).
+- customizable date format.
+- added size/mtime when showing an image.
+- disabled timelimit warning message in safe_mode
+- album hits counter checks referer
+- improved CSS usage for easy customization
+
+changes for 1.1
+---------------
+- corrected a bug that affected the next/previous buttons when viewing an image
+  (thanks to Stephen Moore).
+- added photo_root option, now you can specify the albums root phisical path and 
+  the URI.
+- added rawurlencode and rawurl when making links, now you can use spaces and '&'
+  in your image names (thanks to Ricky Tang).
+- implemented thumbnails per page options.
+- added album title/description, you must create a file in the album dir named
+  "info.txt", the first row is the album name, the other rows make the description.
+- added a simple album/image hits counter.

@@ -1,0 +1,51 @@
+REQUIREMENTS:
+
+YAPPA requires PHP 4.0 or later with GD library extension or ImageMagick's "convert" 
+utility.
+You can find ImageMagick at http://www.imagemagick.org/ and GD library at 
+http://www.boutell.com 
+
+INSTALLATION:
+
+* Untar yappa.tar under your document root
+  
+  $ cd /usr/local/apache/htdocs
+  $ tar zxvf yappa-1.x.tar.gz
+  
+  and rename it into as you want:
+  
+  $ mv yappa-1.x yappa
+  
+  (you could also make a symlink instead of renaming the directory)
+
+* Create a photos directory anywhere under your document root, this directory will 
+  contain all of your albums.
+
+  $ mkdir /usr/local/apache/htdocs/photos
+
+* Upload your pictures in the photos directory. 
+  You will group them in "albums", that is to say in separate subdirectories under the
+  photos directory. (e.g. creating a directory /usr/local/apache/htdocs/photos/travels/ 
+  creates the album 'travels'). 
+  You can make as many of these directories as you like. 
+  You must only check the permissions and make sure that the web server is able to write 
+  in these directories.
+  
+  $ chmod a+w /usr/local/apache/htdocs/photos/travels
+
+* Edit config.inc.php to suit your needs. You will need to make sure that the "photo_root"
+  variable is set to the full path to the photos directory.
+  photo_root => "/usr/local/apache/htdocs/photos"
+
+* Just point your browser at the directory you've created in the first step and enjoy
+  (e.g. http://www.mysite.com/yappa/)
+
+* Optionally you can activate the "hits logger" by creating an empty file named hits.log
+  under the yappa directory, make sure that the web server can write to this file.
+  Under unix you do:
+  $ touch /usr/local/apache/htdocs/yappa/hits.log
+  $ chmod a+w /usr/local/apache/htdocs/yappa/hits.log
+
+* You could also comment your albums and you images by creating two files in the album
+  directory (info.txt for album name/comment and captions.txt for commenting the images).
+  You can find two sample files in the 'album-sample' directory.
